@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "new-test-service"
+  description: "new-test-service"
+  annotations:
+    github.com/project-slug: fp-mt-test-org/new-test-service
+    backstage.io/techdocs-ref: url:https://github.com/fp-mt-test-org/new-test-service
+    backstage.io/kubernetes-id: new-test-service
+spec:
+  type: library
+  lifecycle: experimental
+  owner: "Product Infrastructure"
